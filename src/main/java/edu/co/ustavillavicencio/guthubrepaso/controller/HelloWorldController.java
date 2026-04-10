@@ -13,4 +13,10 @@ public class HelloWorldController {
     public String helloWorld() {
         return "Hello World!";
     }
+    @GetMapping("/ronaldo")
+    public String helloRonaldo() {
+        return "Hello Ronaldo!";
+    }
 }
+
+
