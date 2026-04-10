@@ -26,4 +26,9 @@ public class HelloWorldController {
     public String helloMiguel() {
         return "Hello Miguel!";
     }
+
+    @GetMapping("javier")
+    public String helloJavier() {
+        return "Hello Javier!";
+    }
 }
