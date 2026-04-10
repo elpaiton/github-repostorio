@@ -19,5 +19,6 @@ public class HelloWorldController {
     }
     @GetMapping ("/mancera")
     public String helloMancera() {
-        return "Hello Mancera!";}
+        return "Hello Mancera!";
+    }
 }
